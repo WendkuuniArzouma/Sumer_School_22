@@ -1,0 +1,48 @@
+Initiation et prise en main des IDE python pour le Machine Learning
+
+###Python Linux
+Préinstallé
+#Mise à jour et à niveau du  système : 
+sudo apt update
+sudo apt -y upgrade
+#Gérer les paquets logiciels pour Python, installons pip :
+sudo apt install -y python3-pip
+#Quelques autres paquets et outils de développement à installer:
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+Instalaltion du module venv:
+sudo apt install -y python3-venv
+
+####Installation de Jupyter notebook
+
+#Prérequis
+Python installé
+Instalaltion de jupyter notebook sur windows, linux
+#Avec la commande pip :
+pip install notebook
+#Avec la commande conda d'annaconda (à voir bientôt)  : 
+conda install -c conda-forge notebook
+#Démarrage 
+jupyter notebook
+
+####Installation de JupyterLab
+#Prérequis
+Python installé
+Instalaltion de jupyterLab sur windows, linux
+#Avec la commande pip :
+pip install jupyterlab
+#Avec la commande conda d'annaconda (à voir bientôt)  : 
+conda install -c conda-forge jupyterlab
+#Démarrage 
+jupyter-lab
+
+####Instalaltion anaconda Debian/Ubuntu
+#Prérequis à installer
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 
+libasound2 libxi6 libxtst6
+
+
+
+
+
+
+
